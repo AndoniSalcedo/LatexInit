@@ -55,7 +55,7 @@ then
     echo -n "Añadir indice [Y/n]: "
     read index
     echo -n "Añadir bibliografía [Y/n]: "
-    read index
+    read bibliografia
 fi
 
 if [[ $index != "n" ]]
@@ -103,6 +103,7 @@ echo "
 !*.pdf
 !*.tex
 !*.bib
+!*.gitignore
 " > .gitignore
 
 echo "
